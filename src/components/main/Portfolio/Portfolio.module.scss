@@ -1,0 +1,47 @@
+.portfolio {
+  padding: 30px 0;
+
+
+  .__container {
+    .our {
+      display: inline-block;
+      font-weight: 700;
+      font-size: 12px;
+      color: #868a9b;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .items {
+      display: flex;
+      column-gap: 45px;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 90px;
+
+      .title {
+        font-size: 60px;
+        line-height: 1.2em;
+        font-weight: 700;
+        color: #fff;
+      }
+
+      .text {
+        font-family: 'Syne', sans-serif;
+        font-size: 16px;
+        line-height: 1.75em;
+        font-weight: 400;
+      }
+    }
+
+    .works {
+      display: flex;
+      justify-content: space-around;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+  }
+
+}

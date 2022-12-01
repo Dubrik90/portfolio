@@ -1,0 +1,46 @@
+
+.remoteJob {
+  padding: 30px 0;
+  text-align: center;
+
+  .__container {
+
+    .title {
+      margin-bottom: 40px;
+      display: inline-block;
+      font-weight: 700;
+      font-size: 12px;
+      color: #868a9b;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .btn {
+      .button {
+        display: inline-block;
+        font-size: 20px;
+        color: #fff;
+        background-color: #4e4e4e;
+        padding: 10px 30px;
+        border-radius: 10px;
+        max-width: 400px;
+        width: 100%;
+        align-self: stretch;
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+        line-height: 1.5em;
+        transition: all 0.3s;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #464242;
+        }
+        .icon {
+          font-size: 18px;
+        }
+      }
+    }
+
+
+  }
+
+}

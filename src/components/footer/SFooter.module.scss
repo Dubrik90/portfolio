@@ -1,0 +1,62 @@
+.footer {
+  padding: 30px 0;
+  color: white;
+  background-color: #18191d;
+
+  .__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+
+    .title {
+      margin: 0;
+      font-size: 30px;
+      line-height: 1.5;
+      text-align: center;
+
+    }
+
+    .information {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      align-items: center;
+      font-size: 35px;
+
+      .block {
+        .link {
+          .icon {
+            transition: all 0.3s;
+
+            :hover {
+              span {
+                scale: 1.1;
+              }
+            }
+          }
+        }
+
+      }
+    }
+
+  }
+
+  .text {
+
+  }
+}
+
+//      a span {
+//        flex: 0 0 50px;
+//        min-height: 45px;
+//        transition: all 0.3s;
+//      }
+//
+//      :hover {
+//        span {
+//          scale: 1.1;
+//        }
+//      }
+
+

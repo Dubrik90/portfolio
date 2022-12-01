@@ -1,0 +1,32 @@
+@import "./src/style/variables.scss";
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    font-family:$fSany;
+    background-color: $bgColor;
+    color: $textColor;
+    font-size: $fontSize;
+
+}
+[class*="__container"] {
+    max-width: 1140px;
+    box-sizing: content-box;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+* {
+    min-width: 0;
+}
+
+.hamburger-react div {
+    background: #f30000!important;
+   // color: #f30000;
+}
+
+
+
